@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layerO": "mccourse:item/orichalcum_ingot"
+    "layer0": "mccourse:item/orichalcum_ingot"
   }
 }
