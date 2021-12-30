@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layerO": "mccourse:item/orichalcum_nugget"
+  }
+}

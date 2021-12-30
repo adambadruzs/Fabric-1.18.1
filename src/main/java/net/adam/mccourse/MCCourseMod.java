@@ -1,5 +1,6 @@
 package net.adam.mccourse;
 
+import net.adam.mccourse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,8 +13,6 @@ public class MCCourseMod implements ModInitializer {
 	// A Comment
 	@Override
 	public void onInitialize() {
-
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
