@@ -9,21 +9,23 @@
     "adam"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://adam.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.adam.mccourse.MCCourseMod"
+    ],
+    "client": [
+      "net.adam.mccourse.MCCourseClient"
     ]
   },
   "mixins": [
-    "MCCourse.mixins.json"
+    "mccourse.mixins.json"
   ],
 
   "depends": {

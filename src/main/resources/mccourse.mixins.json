@@ -4,6 +4,9 @@
   "package": "net.adam.mccourse.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "ModEntityDataSaver",
+    "SignTypeAccessor",
+    "BlockEntityTypeMixin"
   ],
   "client": [
     "ExampleMixin"
